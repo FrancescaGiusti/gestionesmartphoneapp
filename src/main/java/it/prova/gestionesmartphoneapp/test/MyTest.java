@@ -20,11 +20,11 @@ public class MyTest {
 
         testInserisciNuovoSmartphone(smartphoneServiceInstance);
         testAggiornaVersioneOsSmartphone(smartphoneServiceInstance);
-       testInserisciNuovaApp(appServiceInstance);
+        testInserisciNuovaApp(appServiceInstance);
         testAggiornaVersioneEDataApp(appServiceInstance);
         testInstallaAppInSmartphone(appServiceInstance, smartphoneServiceInstance);
-       testDisinstallaAppDaSmartphone(appServiceInstance, smartphoneServiceInstance);
-       testInstallaAppInSmartphoneSecondaVersione(appServiceInstance, smartphoneServiceInstance);
+        testDisinstallaAppDaSmartphone(appServiceInstance, smartphoneServiceInstance);
+        testInstallaAppInSmartphoneSecondaVersione(appServiceInstance, smartphoneServiceInstance);
         testRimuoviSmartphoneAssociatoConalmenoDueApp(appServiceInstance, smartphoneServiceInstance);
 
         System.out.println(
